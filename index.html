@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="style/style.css">
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Minefield</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="container">
+				<canvas id ="stage" width="600" height="600"></canvas>
+				<div class="istruzioni">
+					<p>
+						click il tasto destro per far spuntare le bandiere
+						Ci sono  10 bombe...(Audio azzeccato per il gioco)
+						BUON GAME
+					</p>
+				</div>
+				<div class="container">
+					<input class="btn" type="button" value="reset" onclick="window.parent.location.reload()"/input>
+				</div>
+			</div>
+			<script src="script/variables.js"></script>
+			<script src="script/bomb.js"></script>
+			<script src="script/flag.js"></script>
+			<script src="script/stage.js"></script>
+			<script src="script/game.js"></script>
+		</div>
+	</body>
+</html>
