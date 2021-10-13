@@ -1,6 +1,10 @@
 // var audio = new Audio('song.mp3');
 // audio.play();
 
+window.addEventListener("contextmenu", (e) => {
+	e.preventDefault();
+});
+
 var canvas = document.getElementById('stage');
 var ctx = canvas.getContext('2d');
 const colonne = 10;
